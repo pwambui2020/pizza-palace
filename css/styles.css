@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Satisfy&display=swap');
 body{
     background:url(/images/background/pexels-engin-akyurt-1458426.jpg);
     color: chartreuse;
@@ -17,7 +18,7 @@ img {
     background-color: black;
     color: white;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Satisfy', cursive;
   }
   h2 {
     background-color: black;
