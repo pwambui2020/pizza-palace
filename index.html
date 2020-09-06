@@ -14,9 +14,11 @@
 <body>
 
     <h1>PIZZA PALACE</h1>
-    <button type="button" class="btn btn-success">Place your order here</button>
+    <input value="0" type="button" class="btn btn-success" id="cartNumber">
     <div>
-        
+        <div class="about"><h3>About Us</h3>
+            <p>Pizza has everything you want—a great crust, gooey cheese, and tons of pepperoni. The secret to great pepperoni flavor? Hide extra under the cheese! Who needs delivery?Thin crust or deep dish, plain or with the works, there's a pizza for everyone.There are lots of ways to make pizza, and you can even make it super-healthy if you want!Spinning pizza dough looks like a lot of fun, but there’s definitely an art and a skill behind it. Chefs will spin dough carefully to ensure that they get the perfect balance in the crust and in the base.  It’s become so much of an art form that there are competitions and contests out there to see who’s the best!</p></div>
+       
         <div class="row">
             <div class="col-4">
                 <img id="chickenPizza" src="images/display/inna-podolska-JspLKUauwSI-unsplash.jpg" class="rounded float-left">
@@ -26,6 +28,7 @@
                         <h2>Chicken Pizza</h2>
                     </label>
                     <select multiple class="form-control" id="exampleFormControlSelect2">
+                        
                         <option>Large</option><br>
                         <option>Medium</option><br>
                         <option>Small</option><br>
@@ -42,6 +45,7 @@
                         <h2>Meat Pizza</h2>
                     </label>
                     <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option></option><br>
                         <option>Large </option><br>
                         <option>Medium</option><br>
                         <option>Small</option><br>
@@ -57,6 +61,7 @@
                         <h2>Vegetable Pizza</h2>
                     </label>
                     <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option></option><br>
                         <option>Large</option><br>
                         <option>Medium</option><br>
                         <option>Small</option><br>
@@ -83,17 +88,18 @@
           </button>
         </div>
         <div class="modal-body">
-            <select class="custom-select mb-2">
-                <option selected>
+            <select id="sizes" class="custom-select mb-2" required>
+                <option selected value="">
                     <h6>PIZZA SIZES</h6>
                 </option>
+
                 <option value="1">Small</option>
                 <option value="2">Medium</option>
                 <option value="3">Large</option>
             </select>
         
-            <select class="custom-select mb-2">
-                <option selected>
+            <select id="toppings" class="custom-select mb-2" required>
+                <option selected value="">
                     <h6>PIZZA TOPPINGS</h6>
                 </option>
                 <option value="1">Pepperoni</option>
@@ -106,8 +112,8 @@
                 <option value="8">Green pepper</option>
             </select><br>
         
-            <select class="custom-select mb-2">
-                <option selected>
+            <select id="crust" class="custom-select mb-2" required>
+                <option selected value="">
                     <h6>CRUST</h6>
                 </option>
                 <option value="1">Crispy</option>
@@ -122,7 +128,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Submit</button>
+          <input value="submit" type="button" class="btn btn-primary" id="submitButton">
         </div>
       </div>
     </div>
@@ -130,7 +136,7 @@
    
     <div>
         <button type="button" class="btn btn-success">Total charge</button>
-        <button type="button" class="btn btn-success">Select your location for delivery</button>
+      
         <div>
 
 
