@@ -28,3 +28,18 @@ img {
     color:white;
     text-align:center;
   }
+  .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+  }
+  .flex-container img {
+    width: 150px;
+
+  }
+  .contact{
+    color:white;
+    text-align: center;
+  }
