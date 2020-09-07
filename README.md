@@ -1,24 +1,24 @@
-# pizza-palace
+# Pizza-palace
 ## Author
 By Paulyne Wambui
 # Description
 Pizza palace  is an amazing platform to explore your taste buds to different variety of our cuisine. We are here to do exactly what you want from size, shapes and toppings.
 
 ## Setup/Installation Requirements
-1.Should have a working github account
-2.Push the project to the account
-3.Create the design from FIGMA .Here is the link https://www.figma.com/file/KRIvyOrxK4qKWnMvAn43nE/Untitled?node-id=15%3A2
-4.Used flex-box for the rows and columns.
+1. Should have a working github account
+2. Push the project to the account
+3. Create the design from FIGMA .Here is the link https://www.figma.com/file/KRIvyOrxK4qKWnMvAn43nE/Untitled?node-id=15%3A2
+4. Used flex-box for the rows and columns.
 
 ## Known Bugs
 No bugs found
 
 ### Technologies used
-1.HTML
-2.CSS
-3.Jquery
-4.Javascript
-5.Bootstrap 
+1. HTML
+2. CSS
+3. Jquery
+4. Javascript
+5. Bootstrap 
 
  MIT License
 
