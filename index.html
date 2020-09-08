@@ -24,28 +24,61 @@
             <div class="container-fluid">
             <div class="flex-container">
                 <div class="flex-item">
-                    <div class="chickenPizza">
+                    <div class="chickenPizza" id="chickenPizza">
 
                     </div>
+                    
                     <p>chicken pizza</p>
                 </div>
                 <div class="flex-item">
-                    <div class="beefPizza">
+                    <div class="beefPizza" id="beefPizza">
                         
                     </div>
                     <p>beef pizza</p>
                 </div>
                 <div class="flex-item">
-                    <div class="pepperoniPizza">
+                    <div class="pepperoniPizza" id="pepperoniPizza">
                         
                     </div>
                     <p>pepperoni pizza</p>
                 </div>
                 <div class="flex-item">
-                    <div class="veggiePizza">
+                    <div class="veggiePizza" id="veggiePizza">
                         
                     </div>
                     <p>veggie pizza</p>
+                </div>
+
+            </div>
+
+
+            <div class="flex-container">
+                
+
+
+                <div class="flex-item">
+                    <div class="hawaiianPizza" id="hawaiianPizza">
+                        
+                    </div>
+                    <p>hawaiian pizza</p>
+                </div>
+                <div class="flex-item">
+                    <div class="cheesePizza" id="cheesePizza">
+                        
+                    </div>
+                    <p>cheese pizza</p>
+                </div>
+                <div class="flex-item">
+                    <div class="buffaloPizza"  id="buffaloPizza">
+                        
+                    </div>
+                    <p>buffalo pizza</p>
+                </div>
+                <div class="flex-item">
+                    <div class="margheritaPizza"  id="margheritaPizza">
+                        
+                    </div>
+                    <p>margherita pizza</p>
                 </div>
             </div>
         </div>
@@ -73,232 +106,29 @@
         <option value="3">Glutten-free</option>
       </select>
 
-   
-  <div>
-        
+                 
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="pizzaOptions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
   </div>
-
-       
-
-    <!-- <div class="col-md-1"></div> -->
-
-    <!-- </div> -->
-    <div>
-
-        <br><br><br><br><br><br>
-    </div>
-    <!-- <div class="added"> -->
-        <!-- <div class="row">
-            <div class="col-4" >
-                <div class="bbq"></div>
-                <img id="BbqPizza" src="images/download 4.jpeg" class="rounded float-left">
-                <div class="form-group">
-                    <label for="exampleFormControlSelect2">
-                        <br>
-                        <h2> BBQ Chicken Pizza</h2>
-                    </label>
-                    <select multiple class="form-control" id="exampleFormControlSelect2">
-
-                        <option>Large</option><br>
-                        <option>Medium</option><br>
-                        <option>Small</option><br>
-
-                    </select>
-
-                </div>
-            </div>
-            <div class="col-4">
-
-                <img id="HawaiianPizza" src="images/download 5.jpeg" class="rounded float-left">
-                <div class="form-group">
-                    <label for="exampleFormControlSelect2">
-                        <br>
-                        <h2>Hawaiian Pizza</h2>
-                    </label>
-                    <select multiple class="form-control" id="exampleFormControlSelect2">
-
-                        <option>Large</option><br>
-                        <option>Medium</option><br>
-                        <option>Small</option><br>
-
-                    </select>
-
-                </div>
-            </div>
-            <div class="col-4">
-
-                <img id="PepperoniPizza" src="images/images 5.jpeg" class="rounded float-left">
-                <div class="form-group">
-                    <label for="exampleFormControlSelect2">
-                        <br>
-                        <h2>Pepperoni Pizza</h2>
-                    </label>
-                    <select multiple class="form-control" id="exampleFormControlSelect2">
-
-                        <option>Large</option><br>
-                        <option>Medium</option><br>
-                        <option>Small</option><br>
-
-                    </select>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-4">
-
-            <img id="chickenPizza" src="images/display/inna-podolska-JspLKUauwSI-unsplash.jpg"
-                class="rounded float-left">
-            <div class="form-group">
-                <label for="exampleFormControlSelect2">
-                    <br>
-                    <h2>Chicken Pizza</h2>
-                </label>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
-
-                    <option>Large</option><br>
-                    <option>Medium</option><br>
-                    <option>Small</option><br>
-
-                </select>
-
-            </div>
-        </div>
-        <div class="col-4">
-            <img id="meatPizza" src="images/display/ivan-torres-MQUqbmszGGM-unsplash.jpg" class="rounded float-left">
-            <div class="form-group">
-                <label for="exampleFormControlSelect2">
-                    <br>
-                    <h2>Meat Pizza</h2>
-                </label>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
-                    <option></option><br>
-                    <option>Large </option><br>
-                    <option>Medium</option><br>
-                    <option>Small</option><br>
-
-                </select>
-            </div>
-        </div>
-        <div class="col-4">
-            <img id="veggiePizza" src="images/display/pexels-andy-kuzma-2909822.jpg" class="rounded float-left">
-            <div class="form-group">
-                <label for="exampleFormControlSelect2">
-                    <br>
-                    <h2>Vegetable Pizza</h2>
-                </label>
-                <select multiple class="form-control" id="exampleFormControlSelect2">
-                    <option></option><br>
-                    <option>Large</option><br>
-                    <option>Medium</option><br>
-                    <option>Small</option><br>
-
-                </select>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="pizzaOptions" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Pizza option</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <select id="sizes" class="custom-select mb-2" required>
-                        <option selected value="">
-                            <h6>PIZZA SIZES</h6>
-                        </option>
-
-                        <option value="1">Small</option>
-                        <option value="2">Medium</option>
-                        <option value="3">Large</option>
-                    </select>
-
-                    <select id="toppings" class="custom-select mb-2" required>
-                        <option selected value="">
-                            <h6>PIZZA TOPPINGS</h6>
-                        </option>
-
-                        <option value="2">Mushrooms</option>
-                        <option value="3">Onions</option>
-                        <option value="4">Sausage</option>
-                        <option value="5">Bacon</option>
-                        <option value="6">Extra cheese</option>
-                        <option value="7">Black olives</option>
-                        <option value="8">Green pepper</option>
-                    </select><br>
-
-                    <select id="crust" class="custom-select mb-2" required>
-                        <option selected value="">
-                            <h6>CRUST</h6>
-                        </option>
-                        <option value="1">Crispy</option>
-                        <option value="2">Stuffed</option>
-                        <option value="3">Glutten-free</option>
-                    </select>
-                    <input type="checkbox" id="isDelivered"> deliver order to your location</input>
-
-                    <div class="form-group"><input type="text" id="location" class="form-control"
-                            placeholder="Location"></div>
-
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <input value="submit" type="button" class="btn btn-primary" id="submitButton">
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        <button type="button" class="btn btn-success">Total charge</button>
-        <h2 class="contact">Contact Us <p>Find us at our social media platforms:</p>
-        </h2>
-
-    </div>
-
-
-    <!-- <div class="flex-container">
-
-        <img src="images/images 3.jpeg">
-        <img src="images/images (2).png">
-        <img src="images/images 4.jpeg">
-        <img src="images/download.png">
-    </div> -->
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="checkoutmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
