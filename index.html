@@ -13,237 +13,269 @@
 
 <body>
 
-    <h1>Pizza palace</h1>
-    <input value="0" type="button" class="btn btn-success" id="cartNumber" data-toggle="modal"
-        data-target="#checkoutmodal">
+    <div class="container-fluid bg-img">
+       <div class="main-text"> 
+           <p class="mainHeading">Pizza Palace</p>
+           <p class="mainText">Satisfy your cravings</p>
+       </div>
+    </div>
 
-    <div class="flex-container-1">
-        <div class="row">
-            <div class="col-md-1"></div>
-
-            <div class="col-md-3">
-                <img src="images/pexels-pixabay-162744.jpg">
-            </div>
-
-            <div class="col-md-8">
-
-                <div class="flex-container-2">
-                    <h3>About Us</h3>
-                    <p>Pizza has everything you want—a great crust, gooey cheese, and tons of pepperoni.
-                        The secret to great pepperoni flavor? Hide extra under the cheese! Who needs
-                        delivery?Thin crust or deep dish, plain or with the works, there's a pizza
-                        or everyone.There are lots of ways to make pizza, and you can even make it super-healthy if you
-                        want!Spinning pizza dough looks like a lot of fun, but there’s definitely an art and a skill
-                        behind
-                        it.
-                        Chefs will spin dough carefully to ensure that they get the perfect balance in the crust and in
-                        the
-                        base. It’s become so much of an art form that there are competitions and contests out there to
-                        see
-                        who’s
-                        the best!</p>
-                </div>
-            </div>
-            <!-- <div class="col-md-1"></div> -->
-
-            <!-- </div> -->
-            <div>
-
-                <br><br><br><br><br><br>
-            </div>
-
-            <div class="row">
-                <div class="col-4">
-
-                    <img id="chickenPizza" src="images/display/inna-podolska-JspLKUauwSI-unsplash.jpg"
-                        class="rounded float-left">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect2">
-                            <br>
-                            <h2>Chicken Pizza</h2>
-                        </label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-
-                            <option>Large</option><br>
-                            <option>Medium</option><br>
-                            <option>Small</option><br>
-
-                        </select>
+   
+            <div class="container-fluid">
+            <div class="flex-container">
+                <div class="flex-item">
+                    <div class="chickenPizza">
 
                     </div>
+                    <p>chicken pizza</p>
                 </div>
-                <div class="col-4">
-
-                    <img id="chickenPizza" src="images/display/inna-podolska-JspLKUauwSI-unsplash.jpg"
-                        class="rounded float-left">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect2">
-                            <br>
-                            <h2>Chicken Pizza</h2>
-                        </label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-
-                            <option>Large</option><br>
-                            <option>Medium</option><br>
-                            <option>Small</option><br>
-
-                        </select>
-
+                <div class="flex-item">
+                    <div class="beefPizza">
+                        
                     </div>
+                    <p>beef pizza</p>
                 </div>
-                <div class="col-4">
-
-                    <img id="chickenPizza" src="images/display/inna-podolska-JspLKUauwSI-unsplash.jpg"
-                        class="rounded float-left">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect2">
-                            <br>
-                            <h2>Chicken Pizza</h2>
-                        </label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-
-                            <option>Large</option><br>
-                            <option>Medium</option><br>
-                            <option>Small</option><br>
-
-                        </select>
-
+                <div class="flex-item">
+                    <div class="pepperoniPizza">
+                        
                     </div>
+                    <p>pepperoni pizza</p>
                 </div>
-                <div class="col-4">
-
-                    <img id="chickenPizza" src="images/display/inna-podolska-JspLKUauwSI-unsplash.jpg"
-                        class="rounded float-left">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect2">
-                            <br>
-                            <h2>Chicken Pizza</h2>
-                        </label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-
-                            <option>Large</option><br>
-                            <option>Medium</option><br>
-                            <option>Small</option><br>
-
-                        </select>
-
+                <div class="flex-item">
+                    <div class="veggiePizza">
+                        
                     </div>
-                </div>
-                <div class="col-4">
-                    <img id="meatPizza" src="images/display/ivan-torres-MQUqbmszGGM-unsplash.jpg"
-                        class="rounded float-left">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect2">
-                            <br>
-                            <h2>Meat Pizza</h2>
-                        </label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-                            <option></option><br>
-                            <option>Large </option><br>
-                            <option>Medium</option><br>
-                            <option>Small</option><br>
-
-                        </select>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <img id="veggiePizza" src="images/display/pexels-andy-kuzma-2909822.jpg" class="rounded float-left">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect2">
-                            <br>
-                            <h2>Vegetable Pizza</h2>
-                        </label>
-                        <select multiple class="form-control" id="exampleFormControlSelect2">
-                            <option></option><br>
-                            <option>Large</option><br>
-                            <option>Medium</option><br>
-                            <option>Small</option><br>
-
-                        </select>
-                    </div>
+                    <p>veggie pizza</p>
                 </div>
             </div>
         </div>
 
-        <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    <select class="custom-select">
+        <option selected>SIZES</option>
+        <option value="1">Small</option>
+        <option value="2">Medium</option>
+        <option value="3">Large</option>
+      </select>
 
-        </button>
+      <select class="custom-select">
+        <option selected>TOPPINGS</option>
+        <option value="1">Onions</option>
+        <option value="2">Extra cheese</option>
+        <option value="3">Salad</option>
+        <option value="1">Sausage</option>
+        <option value="1">Bacon</option>
+      </select>
 
-        <!-- Modal -->
-        <div class="modal fade" id="pizzaOptions" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Pizza option</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <select id="sizes" class="custom-select mb-2" required>
-                            <option selected value="">
-                                <h6>PIZZA SIZES</h6>
-                            </option>
+      <select class="custom-select">
+        <option selected>CRUST</option>
+        <option value="1">Crispy</option>
+        <option value="2">Stuffed</option>
+        <option value="3">Glutten-free</option>
+      </select>
 
-                            <option value="1">Small</option>
-                            <option value="2">Medium</option>
-                            <option value="3">Large</option>
-                        </select>
+   
+  <div>
+        
+  </div>
 
-                        <select id="toppings" class="custom-select mb-2" required>
-                            <option selected value="">
-                                <h6>PIZZA TOPPINGS</h6>
-                            </option>
-                            <option value="1">Pepperoni</option>
-                            <option value="2">Mushrooms</option>
-                            <option value="3">Onions</option>
-                            <option value="4">Sausage</option>
-                            <option value="5">Bacon</option>
-                            <option value="6">Extra cheese</option>
-                            <option value="7">Black olives</option>
-                            <option value="8">Green pepper</option>
-                        </select><br>
+       
 
-                        <select id="crust" class="custom-select mb-2" required>
-                            <option selected value="">
-                                <h6>CRUST</h6>
-                            </option>
-                            <option value="1">Crispy</option>
-                            <option value="2">Stuffed</option>
-                            <option value="3">Glutten-free</option>
-                        </select>
-                        <input type="checkbox" id="isDelivered"> deliver order to your location</input>
+    <!-- <div class="col-md-1"></div> -->
 
-                        <div class="form-group"><input type="text" id="location" class="form-control"
-                                placeholder="Location"></div>
+    <!-- </div> -->
+    <div>
 
+        <br><br><br><br><br><br>
+    </div>
+    <!-- <div class="added"> -->
+        <!-- <div class="row">
+            <div class="col-4" >
+                <div class="bbq"></div>
+                <img id="BbqPizza" src="images/download 4.jpeg" class="rounded float-left">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">
+                        <br>
+                        <h2> BBQ Chicken Pizza</h2>
+                    </label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
 
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <input value="submit" type="button" class="btn btn-primary" id="submitButton">
-                    </div>
+                        <option>Large</option><br>
+                        <option>Medium</option><br>
+                        <option>Small</option><br>
+
+                    </select>
+
+                </div>
+            </div>
+            <div class="col-4">
+
+                <img id="HawaiianPizza" src="images/download 5.jpeg" class="rounded float-left">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">
+                        <br>
+                        <h2>Hawaiian Pizza</h2>
+                    </label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+
+                        <option>Large</option><br>
+                        <option>Medium</option><br>
+                        <option>Small</option><br>
+
+                    </select>
+
+                </div>
+            </div>
+            <div class="col-4">
+
+                <img id="PepperoniPizza" src="images/images 5.jpeg" class="rounded float-left">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect2">
+                        <br>
+                        <h2>Pepperoni Pizza</h2>
+                    </label>
+                    <select multiple class="form-control" id="exampleFormControlSelect2">
+
+                        <option>Large</option><br>
+                        <option>Medium</option><br>
+                        <option>Small</option><br>
+
+                    </select>
+
                 </div>
             </div>
         </div>
+        <div class="col-4">
 
-        <div>
-            <button type="button" class="btn btn-success">Total charge</button>
-            <h2 class="contact">Contact Us <p>Find us at our social media platforms:</p>
-            </h2>
+            <img id="chickenPizza" src="images/display/inna-podolska-JspLKUauwSI-unsplash.jpg"
+                class="rounded float-left">
+            <div class="form-group">
+                <label for="exampleFormControlSelect2">
+                    <br>
+                    <h2>Chicken Pizza</h2>
+                </label>
+                <select multiple class="form-control" id="exampleFormControlSelect2">
 
+                    <option>Large</option><br>
+                    <option>Medium</option><br>
+                    <option>Small</option><br>
+
+                </select>
+
+            </div>
         </div>
+        <div class="col-4">
+            <img id="meatPizza" src="images/display/ivan-torres-MQUqbmszGGM-unsplash.jpg" class="rounded float-left">
+            <div class="form-group">
+                <label for="exampleFormControlSelect2">
+                    <br>
+                    <h2>Meat Pizza</h2>
+                </label>
+                <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option></option><br>
+                    <option>Large </option><br>
+                    <option>Medium</option><br>
+                    <option>Small</option><br>
+
+                </select>
+            </div>
+        </div>
+        <div class="col-4">
+            <img id="veggiePizza" src="images/display/pexels-andy-kuzma-2909822.jpg" class="rounded float-left">
+            <div class="form-group">
+                <label for="exampleFormControlSelect2">
+                    <br>
+                    <h2>Vegetable Pizza</h2>
+                </label>
+                <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option></option><br>
+                    <option>Large</option><br>
+                    <option>Medium</option><br>
+                    <option>Small</option><br>
+
+                </select>
+            </div>
+        </div>
+    </div> -->
 
 
-        <div class="flex-container">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
 
-            <img src="images/images 3.jpeg">
-            <img src="images/images (2).png">
-            <img src="images/images 4.jpeg">
-            <img src="images/download.png">
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="pizzaOptions" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Pizza option</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <select id="sizes" class="custom-select mb-2" required>
+                        <option selected value="">
+                            <h6>PIZZA SIZES</h6>
+                        </option>
+
+                        <option value="1">Small</option>
+                        <option value="2">Medium</option>
+                        <option value="3">Large</option>
+                    </select>
+
+                    <select id="toppings" class="custom-select mb-2" required>
+                        <option selected value="">
+                            <h6>PIZZA TOPPINGS</h6>
+                        </option>
+
+                        <option value="2">Mushrooms</option>
+                        <option value="3">Onions</option>
+                        <option value="4">Sausage</option>
+                        <option value="5">Bacon</option>
+                        <option value="6">Extra cheese</option>
+                        <option value="7">Black olives</option>
+                        <option value="8">Green pepper</option>
+                    </select><br>
+
+                    <select id="crust" class="custom-select mb-2" required>
+                        <option selected value="">
+                            <h6>CRUST</h6>
+                        </option>
+                        <option value="1">Crispy</option>
+                        <option value="2">Stuffed</option>
+                        <option value="3">Glutten-free</option>
+                    </select>
+                    <input type="checkbox" id="isDelivered"> deliver order to your location</input>
+
+                    <div class="form-group"><input type="text" id="location" class="form-control"
+                            placeholder="Location"></div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <input value="submit" type="button" class="btn btn-primary" id="submitButton">
+                </div>
+            </div>
         </div>
     </div>
+
+    <div>
+        <button type="button" class="btn btn-success">Total charge</button>
+        <h2 class="contact">Contact Us <p>Find us at our social media platforms:</p>
+        </h2>
+
+    </div>
+
+
+    <!-- <div class="flex-container">
+
+        <img src="images/images 3.jpeg">
+        <img src="images/images (2).png">
+        <img src="images/images 4.jpeg">
+        <img src="images/download.png">
+    </div> -->
 
 
     <!-- Modal -->
