@@ -114,7 +114,7 @@ img {
    }
    
    #social {
-     background-image:url(/images/social\ .jpeg) ;
+     background-image:url(/images/social\ 3.png) ;
      background-repeat: no-repeat;
      background-size: contain;
      width: 250%;
@@ -123,13 +123,18 @@ img {
 
    .social-icons {
      font-family: "satisfy";
+     color: whitesmoke;
    }
    .contactUs {
      font-family: "satisfy";
-     background-image: url(/images/background/pexels-engin-akyurt-1458426.jpg);
+     
      background-repeat: no-repeat;
      background-size: cover;
      width: 250%;
     height: 800%;
     color: whitesmoke;
+   }
+   .pen {
+    background-image: url(/images/background/pexels-engin-akyurt-1458426.jpg);
+    height: 350px;
    }
