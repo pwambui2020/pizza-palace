@@ -5,7 +5,8 @@ By Paulyne Wambui
 
 # Description
 Pizza palace  is an amazing platform to explore your taste buds to different variety of our cuisine. We are here to do exactly what you want from size, shapes and toppings.
-We offer delivery services to our customers and good quality services.
+We offer delivery services to our customers and good quality services. 
+
 # screenshot:
 ![Screenshot from 2020-09-09 21-06-00](https://user-images.githubusercontent.com/69419673/92636678-6fc50380-f2e0-11ea-9fe1-8b1abfb0d4c4.png)
 
