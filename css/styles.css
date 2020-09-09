@@ -113,3 +113,23 @@ img {
     background-size: contain;
    }
    
+   #social {
+     background-image:url(/images/social\ .jpeg) ;
+     background-repeat: no-repeat;
+     background-size: contain;
+     width: 250%;
+    height: 100%;
+   }
+
+   .social-icons {
+     font-family: "satisfy";
+   }
+   .contactUs {
+     font-family: "satisfy";
+     background-image: url(/images/background/pexels-engin-akyurt-1458426.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     width: 250%;
+    height: 800%;
+    color: whitesmoke;
+   }
