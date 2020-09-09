@@ -3,7 +3,7 @@
 By Paulyne Wambui
 # Description
 Pizza palace  is an amazing platform to explore your taste buds to different variety of our cuisine. We are here to do exactly what you want from size, shapes and toppings.
-
+We offer delivery services to our customers and good quality services.
 ## Setup/Installation Requirements
 1. Should have a working github account
 2. Push the project to the account
