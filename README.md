@@ -1,14 +1,32 @@
 # Pizza-palace
-## Author
+
+# Author
 By Paulyne Wambui
+
 # Description
 Pizza palace  is an amazing platform to explore your taste buds to different variety of our cuisine. We are here to do exactly what you want from size, shapes and toppings.
+We offer delivery services to our customers and good quality services. 
 
-## Setup/Installation Requirements
-1. Should have a working github account
-2. Push the project to the account
-3. Create the design from FIGMA .Here is the link https://www.figma.com/file/KRIvyOrxK4qKWnMvAn43nE/Untitled?node-id=15%3A2
+# screenshot:
+![Screenshot from 2020-09-09 21-06-00](https://user-images.githubusercontent.com/69419673/92636678-6fc50380-f2e0-11ea-9fe1-8b1abfb0d4c4.png)
+
+## Installation Requirements
+1. Should have a working github account.
+
+2. Push the project to the account.
+
+3. Create the design from FIGMA .Here is the link https://www.figma.com/file/KRIvyOrxK4qKWnMvAn43nE/Untitled?node-id=15%3A2.
+
 4. Used flex-box for the rows and columns.
+
+## Setup
+1. Open Terminal {Ctrl+Alt+T}
+
+2. git clone https://github.com/pwambui2020/pizza-palace.git
+
+3. cd Documents, cd moringa-school-projects, cd pizza-palace
+
+4. code . or atom . depending on the text editor of your choise.
 
 ## Known Bugs
 No bugs found
