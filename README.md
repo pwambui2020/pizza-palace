@@ -7,8 +7,8 @@ By Paulyne Wambui
 Pizza palace  is an amazing platform to explore your taste buds to different variety of our cuisine. We are here to do exactly what you want from size, shapes and toppings.
 We offer delivery services to our customers and good quality services.
 # screenshot:
-![Uploading Screenshot from 2020-09-09 20-23-13.png…]()
-
+![Getting Started](/images//home/wambui/Documents/moringa-school-projects/pizza-palace/images/Screenshot from 2020-09-09 20-41-45.png)
+![Getting Started](images/img.jpg)
 ## Installation Requirements
 1. Should have a working github account.
 
