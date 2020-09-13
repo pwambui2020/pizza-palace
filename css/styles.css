@@ -114,7 +114,7 @@ img {
    }
    
    #social {
-     background-image:url("/images/social\ 3.png") ;
+     background-image:url("/images/social3.png") ;
      background-repeat: no-repeat;
      background-size: contain;
      width: 250%;
@@ -124,10 +124,11 @@ img {
    .social-icons {
      font-family: "satisfy";
      color: whitesmoke;
+     font-size: 100%;
    }
    .contactUs {
      font-family: "satisfy";
-     
+     font-size: 150%;
      background-repeat: no-repeat;
      background-size: cover;
      width: 250%;
