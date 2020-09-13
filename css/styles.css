@@ -114,7 +114,7 @@ img {
    }
    
    #social {
-     background-image:url(/images/social\ 3.png) ;
+     background-image:url("/images/social\ 3.png") ;
      background-repeat: no-repeat;
      background-size: contain;
      width: 250%;
